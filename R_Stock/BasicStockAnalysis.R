@@ -21,7 +21,7 @@ summary(AAPL)
 AAPL.delFirst<-AAPL[-1,] # delete first row
 head(AAPL.delFirst)
 
-AAPL.onlyFirst<-AAPL[1,] # Firsst rows of data
+AAPL.onlyFirst<-AAPL[1,] # First rows of data
 AAPL.onlyFirst
 
 AAPL[c(1,nrow(AAPL)),] # First and last rows
