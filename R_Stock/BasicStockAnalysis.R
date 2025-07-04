@@ -72,10 +72,13 @@ MACD <- rollapply(AAPL$AAPL.Adjusted, width = n2,
 
 # Bollinger Bands
 n <- 20
+meanseries <- rollapply(AAPL$AAPL.Adjusted, width = n,
+                       FUN = mean, by.column = TRUE,
+                       fill = NA, align = "right")
 BB <- rollapply(AAPL$AAPL.Adjusted, width = n,
                 FUN = sd, by.column = TRUE,
                 fill = NA, align = "right")
 upperseries <- meanseries + 2 * BB
-lowerseries <- meanseries + 2 - BB
+lowerseries <- meanseries - 2 * BB
 
 
