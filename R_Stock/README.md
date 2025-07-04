@@ -6,7 +6,7 @@
 
 #### Trading strategies are techniques through which investors and traders formulate approaches tailored to their specific goals of profit generation. Conversely, traders must identify strategies that suit their individual preferences. It is imperative for traders to subject their strategies to backtesting, yet it's worth noting that strategies that prove successful in historical data testing may not necessarily yield the same results in live trading. :bar_chart:  
 
-### Download Langauge and Software  
+### Download Language and Software  
 https://www.r-project.org/    
 https://www.rstudio.com/  
 https://www.spyder-ide.org/
